@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+    background: rgb(255, 255, 255);
+  }
+  
+  .btn{
+    color: rgb(0, 0, 0);
+    border: none;
+    margin: 20px;
+    padding: 20px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.9s;
+    transition-property: box-shadow;
+  }
+  
+  .btn-thrd{
+    background: #50A7FF;
+    box-shadow: 0 0 25px #50A7FF;
+  }
+  
+  .btn-thrd:hover{
+    box-shadow: 0 0 4px #50A7FF,
+                0 0 25px #50A7FF,
+                0 0 50px #50A7FF,
+                0 0 100px #50A7FF;
+  }
+  
+  .btn-secnd{
+    background: #03D29F;
+    box-shadow: 0 0 25px #03D29F;
+  }
+  
+  .btn-secnd:hover{
+    box-shadow: 0 0 4px #03D29F,
+                0 0 25px #000000,
+                0 0 50px #03D29F,
+                0 0 100px #03D29F;
+  }
+  
+  .btn-first{
+    background: #e63333;
+    box-shadow: 0 0 25px #ff4444;
+  }
+  
+  .btn-first:hover{
+    box-shadow: 0 0 5px #000000,
+                0 0 25px #000000,
+                0 0 50px #FF7675,
+                0 0 100px #FF7675;
+  }
+  
+  .btn-four{
+    background: #F0DF51;
+    box-shadow: 0 0 25px #aca236;
+  }
+  
+  .btn-four:hover{
+    box-shadow: 0 0 5px #F0DF51,
+                0 0 25px #F0DF51,
+                0 0 50px #F0DF51,
+                0 0 100px #F0DF51;
+  }
+        
